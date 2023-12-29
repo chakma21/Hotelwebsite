@@ -1,0 +1,110 @@
+body{
+    background-color: whitesmoke;
+}
+nav{
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    padding:50px ;
+    border:3px solid transparent;
+    background-color: #F2A154;
+}
+.navlink{
+    display:inline-block;
+    margin:10px 25px;
+}
+.navlink li{
+    list-style: none;
+    display:inline-block;
+    margin:10px 30px;
+}
+.navlink li a{
+    text-decoration:none;
+    display:inline-block;
+    justify-content:space-between;
+    color: black;
+}
+.log{
+    padding:30px 40px;
+    border-radius:40%;
+    font-size:20px;
+}
+.log:hover{
+    background:#F7F6E7;
+    color:#102C57;
+}
+.search-bar{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 25px 25px;
+    margin-bottom:50px;
+    z-index:1;
+    border:2px solid gray;
+}
+.search-bar div{
+    display: inline-block;
+    align-items:center;
+    justify-content:space-between;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:5px;
+    border: 1px solid gray;
+}
+.search-bar div:hover{
+    border:5px solid #F2A154;
+}
+button{
+    padding:10px 10px 10px 10px;
+    background-color:#F2A154;
+    color:black;
+    box-shadow:1px 1px 1px 1px;
+
+}
+.display{
+    margin-bottom: 15%;
+}
+.cards{
+    margin-top:30px;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px #102C57;
+    transition:0.3s;  
+    padding-left:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px; 
+    background-color:#F7F6E7;
+    margin-left:25%;
+    margin-right:8%;
+}
+.pic .name .review{
+    display:inline-block;
+    justify-content: space-between;
+
+}
+.desc{
+    display:block;
+
+}
+footer{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: #F2A154;
+    box-sizing: border-box;
+}
+footer div{
+    display:inline-block;
+    font-weight: lighter;
+    color:black;
+    font-size: smaller;
+    font-family:Arial;
+    padding-top:10%;
+    padding-bottom:5%;
+    margin:5px 5px 5px 5px;
+}

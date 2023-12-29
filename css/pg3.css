@@ -1,0 +1,60 @@
+body{
+    background-color: whitesmoke;
+}
+.search-bar{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 25px 25px;
+    margin-bottom:50px;
+    z-index:1;
+    border:1px solid gray;
+    position:relative;
+    margin-top:1%;
+}
+.search-bar div{
+    display: inline-block;
+    align-items:center;
+    justify-content:space-between;
+    padding-top:10px 10px 10px 10px;
+    border: 1px solid gray;
+    margin :10px 10px 10px 20px;
+}
+.search-bar div:hover{
+    border:5px solid #F2A154;
+}
+button{
+    padding:10px 10px 10px 10px;
+    background-color:#F2A154;
+    color:black;
+
+}
+button:hover{
+    box-shadow:1px 1px 1px 1px;
+}
+.content{
+    background-color:#f7f6e7;
+    margin:auto 20px;
+    padding-left: 3%;
+}
+.heading{
+    font-family: Gill Sans MT;
+    font-size: large;
+    font-weight: 300em;
+}
+.pics{
+    display:flex;
+    flex-direction: row;
+    margin: 2px 2px;
+    object-fit:scale-down;
+}
+.im{
+    display:inline-block;
+    margin:auto 5px;
+    justify-content:space-between;
+}
+.point{
+    display:inline-block;
+    justify-content: space-between;
+    
+}
