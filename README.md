@@ -1,2 +1,2 @@
 # Hotelwebsite
-Our first web development project. 
+My first newbie nerd project. 
